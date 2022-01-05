@@ -1,3 +1,4 @@
+/* universal */
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +16,18 @@ body {
 .container {
   padding: 0 8rem;
 }
+.btn {
+  padding: 13px 30px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  background: rgb(248, 58, 58);
+  border-style: none;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+
+/* home section start */
 .container .left {
   width: 50%;
   padding-top: 120px;
@@ -34,16 +47,7 @@ body {
   margin-bottom: 1rem;
   font-size: 1rem;
 }
-.btn {
-  padding: 13px 30px;
-  color: white;
-  font-size: 15px;
-  font-weight: 600;
-  background: rgb(248, 58, 58);
-  border-style: none;
-  border-radius: 5px;
-  margin-bottom: 2rem;
-}
+
 .container .right img {
   width: 400px;
   align-items: center;
@@ -91,7 +95,7 @@ body {
   color: rgb(66, 63, 63);
 }
 
-/* develop section start */
+/* develop and community section start */
 .develop-section {
   padding: 2rem 0;
   background-image: url(images/shapes/shape-1.png);
@@ -105,13 +109,63 @@ body {
   align-items: center;
   margin-right: 4rem;
 }
-.develop-text h1 {
+.dev-com-text h1 {
   font-size: 2rem;
   font-weight: bolder;
   margin-bottom: 1rem;
   color: rgb(37, 36, 36);
 }
-.develop-text p {
+.dev-com-text p {
   color: rgb(66, 63, 63);
   margin-bottom: 0.9rem;
+}
+
+.community-section {
+  padding: 2rem 0;
+}
+
+.com-text {
+  padding-top: 3rem;
+  padding-right: 6rem;
+}
+
+/* team section start */
+.team {
+  padding-top: 2rem;
+  padding-bottom: 7rem;
+  text-align: center;
+}
+.team h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  padding-bottom: 3rem;
+}
+.team h3 {
+  font-weight: 400;
+}
+.team .container .team-member1,
+.team .container .team-member4 {
+  background: rgb(252, 215, 215);
+  margin-right: 1.5rem;
+}
+.team .container .team-member2,
+.team .container .team-member3 {
+  background: rgb(209, 242, 245);
+  margin-right: 1.5rem;
+}
+
+/* footer section start */
+footer {
+  background: rgb(1, 1, 14);
+  text-align: center;
+  padding: 3rem 0;
+}
+footer h1 {
+  color: white;
+  margin-bottom: 1rem;
+  font-family: "Satisfy", cursive;
+}
+footer p {
+  color: rgb(107, 102, 102);
 }
