@@ -8,7 +8,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .span {
-  color: coral;
+  color: rgb(255, 138, 96);
 }
 .flex {
   display: flex;
@@ -21,7 +21,7 @@ body {
   color: white;
   font-size: 15px;
   font-weight: 600;
-  background: rgb(248, 58, 58);
+  background: rgb(250, 111, 111);
   border-style: none;
   border-radius: 5px;
   margin-bottom: 2rem;
@@ -36,10 +36,27 @@ body {
   font-size: 3.5rem;
   font-weight: 300;
   color: rgb(37, 36, 36);
-  border-left: 5px solid rgb(248, 58, 58);
   padding-left: 1rem;
   margin-bottom: 2rem;
   font-family: "Abril Fatface", cursive;
+}
+.heading {
+  display: flex;
+  flex-direction: row;
+}
+.custom-border {
+  position: relative;
+}
+.custom-border::after {
+  content: " ";
+  position: absolute;
+  border-left: 4px rgb(250, 111, 111) solid;
+  top: 12%;
+  left: 0;
+  height: 78%;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 3px;
 }
 .container .left p {
   color: rgb(66, 63, 63);
@@ -51,6 +68,7 @@ body {
 .container .right img {
   width: 400px;
   align-items: center;
+  margin-left: 25px;
 }
 
 /* my mession section start */
@@ -98,18 +116,18 @@ body {
 /* develop and community section start */
 .develop-section {
   padding: 2rem 0;
-  background-image: url(images/shapes/shape-1.png);
-  background-repeat: no-repeat;
-  background-size: 250px;
-  background-position: left;
 }
 
 .container .img img {
-  width: 330px;
+  width: 350px;
   align-items: center;
   margin-right: 4rem;
 }
+.dev-com-text {
+  align-items: center;
+}
 .dev-com-text h1 {
+  padding-top: 1rem;
   font-size: 2rem;
   font-weight: bolder;
   margin-bottom: 1rem;
