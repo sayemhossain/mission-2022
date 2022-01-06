@@ -25,6 +25,7 @@ body {
   border-style: none;
   border-radius: 5px;
   margin-bottom: 2rem;
+  cursor: pointer;
 }
 
 /* home section start */
